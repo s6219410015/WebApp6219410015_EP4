@@ -13,7 +13,7 @@
 <body>
     <h1>-- Form Tag --</h1>
     <h2>ลงทะเบียนพนักงาน</h2>
-    <form action="#" method="POST">
+    <form action="#" method="POST" enctype="multipart/form-data">
         ชื่อ <input type="text" name="emp_name" id="">
         <br><br>
         ปีเกิด <input type="number" name="emp_byear" id="">
@@ -26,7 +26,7 @@
         <br><br>
         เวลาเกิด <input type="time" name="emp_btime" id="">
         <br><br>
-        เพศ 
+       เพศ 
         <!-- radio ต้องเลือก และเลือกได้แค่ -->
         <input type="radio" name="emp_sex" id="" value="m">ชาย
         <input type="radio" name="emp_sex" id="" value="f">หญิง
@@ -37,7 +37,7 @@
         <select name="emp_educate" id="">
             <option value="ตรี">ปริญญาตรี</option>
             <option value="โท">ปริญญาโท</option>
-            <option value="เอก">ปริญญาเอก</option>
+            <option value="เอก">ปริญญ าเอก</option>
         </select>
         <br><br>
         คำนำหน้า
@@ -76,6 +76,7 @@
         <input type="reset" value="ยกเลิก">
         <button>บันทึก Save</button>
         <button>ยกเลิก ไม่เอา Cancel</button>
+
 
 
         
